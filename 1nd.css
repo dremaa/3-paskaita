@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:  #2b3035;
+    font-family: "Poppins",Arial,sans-serif;
+}
+table{
+    color: white;
+    background-color: #343a40;
+    text-align: left;
+    border-collapse: collapse;
+}
+table tr td{
+    width: 250px;
+}
+table td, table th{
+    padding: 20px 30px;
+} 
+tbody tr:hover{
+    background-color: rgba(255,255,255,.10);
+}
+table tr{
+    border-bottom: 5px solid #2b3035;
+}
+
+

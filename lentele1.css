@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(208, 195, 223);
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+table td, table th{
+    padding: 20px 30px;
+} 
+table tr td{
+    width: 300px;
+}
+
+thead tr{
+    background-color: rgb(31, 18, 49);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tbody tr td{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+tbody td:hover{
+    background-color: #6c7ae0;
+}
+tbody tr:hover{
+    background-color: #989aa5;
+}
+thead td:hover{
+    background-color: rgb(73, 61, 22);
+}
